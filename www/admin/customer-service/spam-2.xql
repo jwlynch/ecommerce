@@ -31,9 +31,9 @@
     </querytext>
   </partialquery>
 
-  <partialquery name="null_categories_query">
+  <partialquery name="null_categories">
     <querytext>
-      select cc_users.user_id, first_names, last_name from cc_users, ec_cat_mailing_lists where cc_users.user_id=ec_cat_mailing_lists.user_id
+      select users.user_id, first_names, last_name from cc_users, ec_cat_mailing_lists where users.user_id=ec_cat_mailing_lists.user_id
     </querytext>
   </partialquery>
 
